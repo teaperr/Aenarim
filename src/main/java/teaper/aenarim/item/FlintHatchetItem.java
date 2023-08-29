@@ -28,7 +28,7 @@ public class FlintHatchetItem extends AxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return -1f;
+				return 0f;
 			}
 
 			public int getLevel() {

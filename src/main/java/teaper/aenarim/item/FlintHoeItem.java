@@ -23,7 +23,7 @@ public class FlintHoeItem extends HoeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return -2f;
+				return -1f;
 			}
 
 			public int getLevel() {
