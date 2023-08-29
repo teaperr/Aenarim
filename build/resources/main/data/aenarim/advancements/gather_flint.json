@@ -32,5 +32,11 @@
       }
     }
   },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "aenarim:craft_flint_knife"
+    ]
+  },
   "parent": "minecraft:story/root"
 }

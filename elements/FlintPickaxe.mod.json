@@ -1,0 +1,34 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "flint_pickaxe",
+    "customModelName": "Normal",
+    "name": "Flint Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 1,
+    "efficiency": 2.5,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 1.0,
+    "usageCount": 32,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:FlintPickaxe"
+      },
+      {
+        "value": "Items.FLINT"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -14,7 +14,11 @@
     "hideIfNotCompleted": false,
     "rewardLoot": [],
     "rewardRecipes": [
-      "StringFromFibre"
+      "StringFromFibre",
+      "CraftFlintHatchet",
+      "CraftFlintPickaxe",
+      "CraftFlintShovel",
+      "CraftFlintHoe"
     ],
     "rewardFunction": "No function",
     "rewardXP": 0,

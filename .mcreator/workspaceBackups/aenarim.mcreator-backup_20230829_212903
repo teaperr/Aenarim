@@ -169,80 +169,12 @@
           "src/main/resources/assets/aenarim/models/item/flint_shovel.json"
         ]
       }
-    },
-    {
-      "name": "FlintHoe",
-      "type": "tool",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "flint_hoe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/aenarim/models/item/flint_hoe.json",
-          "src/main/java/teaper/aenarim/item/FlintHoeItem.java"
-        ]
-      }
-    },
-    {
-      "name": "FlintPickaxe",
-      "type": "tool",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "flint_pickaxe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/aenarim/models/item/flint_pickaxe.json",
-          "src/main/java/teaper/aenarim/item/FlintPickaxeItem.java"
-        ]
-      }
-    },
-    {
-      "name": "CraftFlintPickaxe",
-      "type": "recipe",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "craft_flint_pickaxe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/aenarim/recipes/craft_flint_pickaxe.json"
-        ]
-      }
-    },
-    {
-      "name": "CraftFlintShovel",
-      "type": "recipe",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "craft_flint_shovel",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/aenarim/recipes/craft_flint_shovel.json"
-        ]
-      }
-    },
-    {
-      "name": "CraftFlintHoe",
-      "type": "recipe",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "craft_flint_hoe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/aenarim/recipes/craft_flint_hoe.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.aenarim.flint_hoe": "Flint Hoe",
       "item.aenarim.fibre": "Fibre",
       "advancements.gather_fibre.descr": "Gather fibre from cutting grass with a flint knife.",
       "item.aenarim.flint_shovel": "Flint Shovel",
@@ -250,8 +182,7 @@
       "item.aenarim.flint_hatchet": "Flint Hatchet",
       "advancements.gather_flint.descr": "Acquire flint from gravel, a useful material for basic tools.",
       "advancements.gather_fibre.title": "A primitive type of string",
-      "item.aenarim.flint_knife": "Flint Knife",
-      "item.aenarim.flint_pickaxe": "Flint Pickaxe"
+      "item.aenarim.flint_knife": "Flint Knife"
     }
   },
   "foldersRoot": {

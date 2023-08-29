@@ -4,7 +4,10 @@
  */
 package teaper.aenarim.init;
 
+import teaper.aenarim.item.FlintShovelItem;
+import teaper.aenarim.item.FlintPickaxeItem;
 import teaper.aenarim.item.FlintKnifeItem;
+import teaper.aenarim.item.FlintHoeItem;
 import teaper.aenarim.item.FlintHatchetItem;
 import teaper.aenarim.item.FibreItem;
 import teaper.aenarim.AenarimMod;
@@ -17,10 +20,16 @@ public class AenarimModItems {
 	public static Item FIBRE;
 	public static Item FLINT_KNIFE;
 	public static Item FLINT_HATCHET;
+	public static Item FLINT_SHOVEL;
+	public static Item FLINT_HOE;
+	public static Item FLINT_PICKAXE;
 
 	public static void load() {
 		FIBRE = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "fibre"), new FibreItem());
 		FLINT_KNIFE = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "flint_knife"), new FlintKnifeItem());
 		FLINT_HATCHET = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "flint_hatchet"), new FlintHatchetItem());
+		FLINT_SHOVEL = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "flint_shovel"), new FlintShovelItem());
+		FLINT_HOE = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "flint_hoe"), new FlintHoeItem());
+		FLINT_PICKAXE = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "flint_pickaxe"), new FlintPickaxeItem());
 	}
 }

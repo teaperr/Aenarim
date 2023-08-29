@@ -32,5 +32,11 @@
         ]
       }
     }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "aenarim:string_from_fibre"
+    ]
   }
 }

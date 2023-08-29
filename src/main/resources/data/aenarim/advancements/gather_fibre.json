@@ -36,7 +36,11 @@
   "rewards": {
     "experience": 0,
     "recipes": [
-      "aenarim:string_from_fibre"
+      "aenarim:string_from_fibre",
+      "aenarim:craft_flint_hatchet",
+      "aenarim:craft_flint_pickaxe",
+      "aenarim:craft_flint_shovel",
+      "aenarim:craft_flint_hoe"
     ]
   }
 }
