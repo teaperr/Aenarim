@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "aenarim",
+  "version": "1.0.0",
+  "name": "Aenarim",
+  "authors": [
+    "Thea (teaper_)"
+  ],
+  "contact": {
+    "homepage": "https://discord.com/users/903660750277599322",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "teaper.aenarim.AenarimMod"
+    ],
+    "client": [
+      "teaper.aenarim.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "aenarim.mixins.json"
+  ]
+}

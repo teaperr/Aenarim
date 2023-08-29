@@ -1,0 +1,112 @@
+{
+  "mod_elements": [
+    {
+      "name": "FlintKnife",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_knife",
+      "metadata": {
+        "files": [
+          "src/main/java/teaper/aenarim/item/FlintKnifeItem.java",
+          "src/main/resources/assets/aenarim/models/item/flint_knife.json"
+        ]
+      }
+    },
+    {
+      "name": "FlintKnifeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_knife_block_destroyed_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/teaper/aenarim/procedures/FlintKnifeBlockDestroyedWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fibre",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fibre",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aenarim/models/item/fibre.json",
+          "src/main/java/teaper/aenarim/item/FibreItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GatherFibre",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gather_fibre",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aenarim/advancements/gather_fibre.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.aenarim.fibre": "Fibre",
+      "advancements.gather_fibre.descr": "Gather fibre from cutting grass with a flint knife.",
+      "advancements.gather_fibre.title": "A primitive type of string",
+      "item.aenarim.flint_knife": "Flint Knife"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "aenarim",
+    "modName": "Aenarim",
+    "version": "1.0.0",
+    "author": "Thea (teaper_)",
+    "websiteURL": "https://discord.com/users/903660750277599322",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "credits": "Me",
+    "modElementsPackage": "teaper.aenarim",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}
