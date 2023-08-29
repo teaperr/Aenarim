@@ -66,26 +66,12 @@
     {
       "name": "GatherFibre",
       "type": "achievement",
-      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gather_fibre",
       "metadata": {
         "files": [
           "src/main/resources/data/aenarim/advancements/gather_fibre.json"
-        ]
-      }
-    },
-    {
-      "name": "GatherFlint",
-      "type": "achievement",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gather_flint",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/aenarim/advancements/gather_flint.json"
         ]
       }
     }
@@ -96,8 +82,6 @@
     "en_us": {
       "item.aenarim.fibre": "Fibre",
       "advancements.gather_fibre.descr": "Gather fibre from cutting grass with a flint knife.",
-      "advancements.gather_flint.title": "Something sharp",
-      "advancements.gather_flint.descr": "Acquire flint from gravel, a useful material for basic tools.",
       "advancements.gather_fibre.title": "A primitive type of string",
       "item.aenarim.flint_knife": "Flint Knife"
     }
