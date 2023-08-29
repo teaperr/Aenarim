@@ -1,0 +1,37 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "flint_hatchet",
+    "customModelName": "Normal",
+    "name": "Flint Hatchet",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 1,
+    "efficiency": 3.0,
+    "attackSpeed": 0.8,
+    "enchantability": 8,
+    "damageVsEntity": 1.0,
+    "usageCount": 64,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:FlintHatchet"
+      },
+      {
+        "value": "Items.FLINT"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onCrafted": {
+      "name": "FlintHatchetItemIsCrafted"
+    }
+  }
+}

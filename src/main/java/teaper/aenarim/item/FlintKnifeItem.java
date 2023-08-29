@@ -1,6 +1,8 @@
 
 package teaper.aenarim.item;
 
+import teaper.aenarim.init.AenarimModItems;
+
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
@@ -21,7 +23,7 @@ public class FlintKnifeItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return -0.5f;
 			}
 
 			public int getLevel() {
@@ -33,7 +35,7 @@ public class FlintKnifeItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Items.FLINT));
+				return Ingredient.of(new ItemStack(Items.FLINT), new ItemStack(AenarimModItems.FLINT_KNIFE));
 			}
 		}, 3, -2.7f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}

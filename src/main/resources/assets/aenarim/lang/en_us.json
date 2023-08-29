@@ -1,6 +1,9 @@
 {
   "item.aenarim.fibre": "Fibre",
   "advancements.gather_fibre.descr": "Gather fibre from cutting grass with a flint knife.",
+  "advancements.gather_flint.title": "Something sharp",
+  "item.aenarim.flint_hatchet": "Flint Hatchet",
+  "advancements.gather_flint.descr": "Acquire flint from gravel, a useful material for basic tools.",
   "advancements.gather_fibre.title": "A primitive type of string",
   "item.aenarim.flint_knife": "Flint Knife"
 }

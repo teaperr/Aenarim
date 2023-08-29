@@ -15,13 +15,16 @@
     "efficiency": 1.0,
     "attackSpeed": 1.2999999999999998,
     "enchantability": 10,
-    "damageVsEntity": 4.0,
+    "damageVsEntity": 1.5,
     "usageCount": 32,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
         "value": "Items.FLINT"
+      },
+      {
+        "value": "CUSTOM:FlintKnife"
       }
     ],
     "immuneToFire": false,
