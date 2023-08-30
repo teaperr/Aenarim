@@ -5,6 +5,7 @@
 package teaper.aenarim.init;
 
 import teaper.aenarim.item.WovenArmourItem;
+import teaper.aenarim.item.SharpBoneItem;
 import teaper.aenarim.item.FlintShovelItem;
 import teaper.aenarim.item.FlintPickaxeItem;
 import teaper.aenarim.item.FlintKnifeItem;
@@ -28,6 +29,7 @@ public class AenarimModItems {
 	public static Item WOVEN_ARMOUR_CHESTPLATE;
 	public static Item WOVEN_ARMOUR_LEGGINGS;
 	public static Item DRIED_FIBRE;
+	public static Item SHARP_BONE;
 
 	public static void load() {
 		FIBRE = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "fibre"), new FibreItem());
@@ -39,5 +41,6 @@ public class AenarimModItems {
 		WOVEN_ARMOUR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "woven_armour_chestplate"), new WovenArmourItem.Chestplate());
 		WOVEN_ARMOUR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "woven_armour_leggings"), new WovenArmourItem.Leggings());
 		DRIED_FIBRE = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "dried_fibre"), new DriedFibreItem());
+		SHARP_BONE = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "sharp_bone"), new SharpBoneItem());
 	}
 }

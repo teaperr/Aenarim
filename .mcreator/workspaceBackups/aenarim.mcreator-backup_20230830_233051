@@ -395,6 +395,20 @@
           "src/main/resources/data/aenarim/recipes/craft_woven_leggings.json"
         ]
       }
+    },
+    {
+      "name": "SharpBone",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharp_bone",
+      "metadata": {
+        "files": [
+          "src/main/java/teaper/aenarim/item/SharpBoneItem.java",
+          "src/main/resources/assets/aenarim/models/item/sharp_bone.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -410,6 +424,7 @@
       "advancements.gather_fibre.title": "A primitive type of string",
       "item.aenarim.flint_knife": "Flint Knife",
       "item.aenarim.woven_armour_chestplate": "Woven Chestplate",
+      "item.aenarim.sharp_bone": "Sharp Bone",
       "item.aenarim.flint_shovel": "Flint Shovel",
       "item.aenarim.fibre": "Fibre",
       "advancements.gather_flint.title": "Something sharp",
