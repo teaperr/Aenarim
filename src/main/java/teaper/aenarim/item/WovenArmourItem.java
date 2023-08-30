@@ -1,7 +1,10 @@
 
 package teaper.aenarim.item;
 
+import teaper.aenarim.init.AenarimModItems;
+
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ArmorMaterial;
@@ -23,7 +26,7 @@ public abstract class WovenArmourItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{2, 2, 3, 2}[slot.getIndex()];
+				return new int[]{2, 3, 3, 2}[slot.getIndex()];
 			}
 
 			@Override
@@ -38,7 +41,7 @@ public abstract class WovenArmourItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.EMPTY;
+				return Ingredient.of(new ItemStack(AenarimModItems.DRIED_FIBRE));
 			}
 
 			@Environment(EnvType.CLIENT)

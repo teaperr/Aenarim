@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "notexture",
+    "texture": "dried_fibred",
     "customModelName": "Normal",
     "name": "Dried Fibre",
     "rarity": "COMMON",

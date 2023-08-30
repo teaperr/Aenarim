@@ -327,21 +327,94 @@
           "src/main/resources/data/aenarim/functions/test.mcfunction"
         ]
       }
+    },
+    {
+      "name": "WovenArmour",
+      "type": "armor",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woven_armour",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aenarim/models/item/woven_armour_leggings.json",
+          "src/main/java/teaper/aenarim/item/WovenArmourItem.java",
+          "src/main/resources/assets/aenarim/models/item/woven_armour_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "DriedFibre",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dried_fibre",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aenarim/models/item/dried_fibre.json",
+          "src/main/java/teaper/aenarim/item/DriedFibreItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DryingFibre",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drying_fibre",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aenarim/recipes/drying_fibre.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftWovenChestplate",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_woven_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aenarim/recipes/craft_woven_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftWovenLeggings",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_woven_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aenarim/recipes/craft_woven_leggings.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.aenarim.dried_fibre": "Dried Fibre",
       "item.aenarim.flint_hoe": "Flint Hoe",
-      "item.aenarim.fibre": "Fibre",
+      "item.aenarim.woven_armour_leggings": "Woven Leggings",
       "advancements.gather_fibre.descr": "Gather fibre from cutting grass with a flint knife.",
-      "item.aenarim.flint_shovel": "Flint Shovel",
-      "advancements.gather_flint.title": "Something sharp",
+      "item.aenarim.woven_armour_helmet": "Woven Armour Helmet",
       "item.aenarim.flint_hatchet": "Flint Hatchet",
-      "advancements.gather_flint.descr": "Acquire flint from gravel, a useful material for basic tools.",
       "advancements.gather_fibre.title": "A primitive type of string",
       "item.aenarim.flint_knife": "Flint Knife",
+      "item.aenarim.woven_armour_chestplate": "Woven Chestplate",
+      "item.aenarim.flint_shovel": "Flint Shovel",
+      "item.aenarim.fibre": "Fibre",
+      "advancements.gather_flint.title": "Something sharp",
+      "advancements.gather_flint.descr": "Acquire flint from gravel, a useful material for basic tools.",
+      "item.aenarim.woven_armour_boots": "Woven Armour Boots",
       "item.aenarim.flint_pickaxe": "Flint Pickaxe"
     }
   },
