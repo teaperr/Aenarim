@@ -301,6 +301,47 @@
           "src/main/resources/data/minecraft/tags/items/shovels.json"
         ]
       }
+    },
+    {
+      "name": "BlacklistItemsLoop",
+      "type": "function",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blacklist_items_loop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aenarim/functions/blacklist_items_loop.mcfunction"
+        ]
+      }
+    },
+    {
+      "name": "Test",
+      "type": "function",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aenarim/functions/test.mcfunction"
+        ]
+      }
+    },
+    {
+      "name": "WovenArmour",
+      "type": "armor",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woven_armour",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aenarim/models/item/woven_armour_leggings.json",
+          "src/main/java/teaper/aenarim/item/WovenArmourItem.java",
+          "src/main/resources/assets/aenarim/models/item/woven_armour_chestplate.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -308,14 +349,18 @@
   "language_map": {
     "en_us": {
       "item.aenarim.flint_hoe": "Flint Hoe",
-      "item.aenarim.fibre": "Fibre",
+      "item.aenarim.woven_armour_leggings": "Woven Leggings",
       "advancements.gather_fibre.descr": "Gather fibre from cutting grass with a flint knife.",
-      "item.aenarim.flint_shovel": "Flint Shovel",
-      "advancements.gather_flint.title": "Something sharp",
+      "item.aenarim.woven_armour_helmet": "Woven Armour Helmet",
       "item.aenarim.flint_hatchet": "Flint Hatchet",
-      "advancements.gather_flint.descr": "Acquire flint from gravel, a useful material for basic tools.",
       "advancements.gather_fibre.title": "A primitive type of string",
       "item.aenarim.flint_knife": "Flint Knife",
+      "item.aenarim.woven_armour_chestplate": "Woven Chestplate",
+      "item.aenarim.flint_shovel": "Flint Shovel",
+      "item.aenarim.fibre": "Fibre",
+      "advancements.gather_flint.title": "Something sharp",
+      "advancements.gather_flint.descr": "Acquire flint from gravel, a useful material for basic tools.",
+      "item.aenarim.woven_armour_boots": "Woven Armour Boots",
       "item.aenarim.flint_pickaxe": "Flint Pickaxe"
     }
   },

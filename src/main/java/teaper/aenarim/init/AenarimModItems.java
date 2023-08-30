@@ -4,6 +4,7 @@
  */
 package teaper.aenarim.init;
 
+import teaper.aenarim.item.WovenArmourItem;
 import teaper.aenarim.item.FlintShovelItem;
 import teaper.aenarim.item.FlintPickaxeItem;
 import teaper.aenarim.item.FlintKnifeItem;
@@ -23,6 +24,8 @@ public class AenarimModItems {
 	public static Item FLINT_SHOVEL;
 	public static Item FLINT_HOE;
 	public static Item FLINT_PICKAXE;
+	public static Item WOVEN_ARMOUR_CHESTPLATE;
+	public static Item WOVEN_ARMOUR_LEGGINGS;
 
 	public static void load() {
 		FIBRE = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "fibre"), new FibreItem());
@@ -31,5 +34,7 @@ public class AenarimModItems {
 		FLINT_SHOVEL = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "flint_shovel"), new FlintShovelItem());
 		FLINT_HOE = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "flint_hoe"), new FlintHoeItem());
 		FLINT_PICKAXE = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "flint_pickaxe"), new FlintPickaxeItem());
+		WOVEN_ARMOUR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "woven_armour_chestplate"), new WovenArmourItem.Chestplate());
+		WOVEN_ARMOUR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "woven_armour_leggings"), new WovenArmourItem.Leggings());
 	}
 }
