@@ -1,6 +1,5 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "aenarim:fibre"
     },
@@ -42,5 +41,6 @@
       "aenarim:craft_flint_shovel",
       "aenarim:craft_flint_hoe"
     ]
-  }
+  },
+  "parent": "aenarim:gather_flint"
 }

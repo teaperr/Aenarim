@@ -1,0 +1,9 @@
+{
+  "_fv": 43,
+  "_type": "function",
+  "definition": {
+    "code": "gamerule commandBlockOutput false",
+    "name": "test",
+    "namespace": "mod"
+  }
+}

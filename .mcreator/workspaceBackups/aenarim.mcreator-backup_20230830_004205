@@ -238,12 +238,69 @@
       }
     },
     {
-      "name": "DisallowMineWood",
-      "type": "procedure",
+      "name": "Axes",
+      "type": "tag",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/axes.json"
+        ]
+      }
+    },
+    {
+      "name": "Pickaxes",
+      "type": "tag",
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "disallow_mine_wood"
+      "registry_name": "pickaxes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/pickaxes.json"
+        ]
+      }
+    },
+    {
+      "name": "Hoes",
+      "type": "tag",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/hoes.json"
+        ]
+      }
+    },
+    {
+      "name": "Swords",
+      "type": "tag",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swords",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/swords.json"
+        ]
+      }
+    },
+    {
+      "name": "Shovels",
+      "type": "tag",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shovels",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/shovels.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

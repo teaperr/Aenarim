@@ -1,5 +1,5 @@
-[22:45:24] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.2 with Fabric Loader 0.14.19
-[22:45:24] [main/INFO] (FabricLoader) Loading 46 mods:
+[01:49:19] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.2 with Fabric Loader 0.14.19
+[01:49:19] [main/INFO] (FabricLoader) Loading 69 mods:
 	- aenarim 1.0.0
 	- fabric-api 0.67.1+1.19.2
 	- fabric-api-base 0.4.13+0d0f210290
@@ -21,6 +21,18 @@
 	- fabric-item-api-v1 1.6.1+fa140d5990
 	- fabric-item-groups-v0 0.3.35+9244241690
 	- fabric-key-binding-api-v1 1.0.23+aaaf9d3390
+	- fabric-language-kotlin 1.9.3+kotlin.1.8.20
+	   |-- org_jetbrains_kotlin_kotlin-reflect 1.8.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 1.8.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 1.8.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 1.8.20
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.20.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.6.4
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.6.4
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.4.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.5.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.5.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.5.0
 	- fabric-lifecycle-events-v1 2.2.2+9244241690
 	- fabric-loot-api-v2 1.1.9+83a8659290
 	- fabric-message-api-v1 5.0.5+93d8cb8290
@@ -45,14 +57,29 @@
 	- fabric-transitive-access-wideners-v1 1.3.2+42d99c3290
 	- fabricloader 0.14.19
 	- java 17
+	- lithium 0.11.1
 	- minecraft 1.19.2
-[22:45:25] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/buhguh/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/e13b4069fe3555969811d4474f78576c707bbe1c/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[22:45:25] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[22:45:25] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[22:45:25] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[22:45:33] [main/INFO] (Minecraft) Building optimized datafixer
-[22:45:39] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22:45:40] [Render thread/ERROR] (fabric-screen-api-v1) Failed to verify authentication
+	- smoothboot 1.19-1.7.1
+	- sodium 0.4.4+build.18
+	   \-- org_joml_joml 1.10.4
+	- yet-another-config-lib 2.2.0-for-1.19.2
+	- zoomify 2.9.0
+	   |-- com_github_llamalad7_mixinextras 0.1.1
+	   |-- dev_isxander_settxi_settxi-core 2.10.5
+	   |-- dev_isxander_settxi_settxi-gui 2.10.5
+	   |-- dev_isxander_settxi_settxi-kotlinx-serialization 2.10.5
+	   \-- settxi-gui-yacl 2.10.5
+[01:49:29] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/buhguh/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/e13b4069fe3555969811d4474f78576c707bbe1c/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[01:49:30] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[01:49:30] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[01:49:30] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[01:49:30] [main/INFO] (Sodium) Loaded configuration file for Sodium: 29 options available, 0 override(s) found
+[01:49:30] [main/INFO] (Lithium) Loaded configuration file for Lithium: 114 options available, 0 override(s) found
+[01:49:31] [main/WARN] (FabricLoader/Mixin) Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
+[01:49:32] [main/INFO] (Smooth Boot) Smooth Boot config initialized
+[01:49:39] [main/INFO] (Minecraft) Building optimized datafixer
+[01:49:43] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:49:43] [Render thread/ERROR] (fabric-screen-api-v1) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.11.49.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:155) ~[authlib-3.11.49.jar:?]
@@ -71,11 +98,12 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.11.49.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-3.11.49.jar:?]
 	... 10 more
-[22:45:40] [Render thread/INFO] (fabric-screen-api-v1) Setting user: Player104
-[22:45:40] [Render thread/INFO] (AenarimMod) Initializing AenarimMod
-[22:45:40] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[22:45:41] [Render thread/INFO] (fabric-screen-api-v1) Backend library: LWJGL version 3.3.1 SNAPSHOT
-[22:45:44] [Worker-Main-4/ERROR] (Minecraft) Failed to retrieve profile key pair
+[01:49:43] [Render thread/INFO] (fabric-screen-api-v1) Setting user: Player803
+[01:49:44] [Render thread/INFO] (AenarimMod) Initializing AenarimMod
+[01:49:45] [Render thread/INFO] (Indigo) [Indigo] Different rendering plugin detected; not applying Indigo.
+[01:49:45] [Render thread/INFO] (fabric-screen-api-v1) Backend library: LWJGL version 3.3.1 SNAPSHOT
+[01:49:46] [Render thread/WARN] (FabricLoader/Mixin) Static binding violation: PRIVATE @Overwrite method renderModelLists in sodium.mixins.json:features.item.MixinItemRenderer from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[01:49:47] [Worker-Main-3/ERROR] (Minecraft) Failed to retrieve profile key pair
 java.io.IOException: Could not retrieve profile key pair
 	at net.minecraft.client.multiplayer.ProfileKeyPairManager.fetchProfileKeyPair(ProfileKeyPairManager.java:151) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.multiplayer.ProfileKeyPairManager.method_44291(ProfileKeyPairManager.java:72) ~[minecraft-project-@-merged-named.jar:?]
@@ -86,24 +114,24 @@ java.io.IOException: Could not retrieve profile key pair
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[22:45:44] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Dimensions API (v1), Fabric Transfer API (v1), Fabric API Lookup API (v1), Fabric Game Rule API (v1), Fabric Renderer - Indigo, Fabric Crash Report Info (v1), Fabric Particles (v1), Fabric Object Builder API (v1), Fabric Biome API (v1), Fabric Textures (v0), Fabric Entity Events (v1), Fabric Resource Conditions API (v1), Fabric Models (v0), Fabric Convention Tags, Fabric Item API (v1), Fabric Rendering Data Attachment (v1), Fabric Networking API (v1), Fabric API Base, Fabric Screen API (v1), Fabric Mining Level API (v1), Fabric Key Binding API (v1), Fabric API, Fabric Lifecycle Events (v1), Fabric Rendering Fluids (v1), Fabric Game Test API (v1), Fabric Rendering (v1), Aenarim, Fabric Message API (v1), Fabric Content Registries (v0), Fabric Data Generation API (v1), Fabric Loot API (v2), Fabric Resource Loader (v0), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Transitive Access Wideners (v1), Fabric Item Groups (v0), Fabric Screen Handler API (v1), Fabric Client Tags, Fabric Loader, Fabric Events Interaction (v0), Fabric Command API (v2), Fabric BlockRenderLayer Registration (v1), Fabric Sound API (v1))
-[22:45:45] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[22:45:48] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[22:45:48] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[22:45:48] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speakers (Realtek High Definition Audio)
-[22:45:48] [Render thread/INFO] (Minecraft) Sound engine started
-[22:45:48] [Render thread/INFO] (Minecraft) Created: 1024x1024x2 minecraft:textures/atlas/blocks.png-atlas
-[22:45:48] [Render thread/INFO] (Minecraft) Created: 256x128x2 minecraft:textures/atlas/signs.png-atlas
-[22:45:48] [Render thread/INFO] (Minecraft) Created: 1024x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[22:45:48] [Render thread/INFO] (Minecraft) Created: 1024x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[22:45:48] [Render thread/INFO] (Minecraft) Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[22:45:48] [Render thread/INFO] (Minecraft) Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[22:45:48] [Render thread/INFO] (Minecraft) Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[22:45:50] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[22:45:50] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[22:45:50] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[22:45:50] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[22:46:11] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_pickaxe
+[01:49:47] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Mining Level API (v1), Fabric API, Fabric Loot API (v2), Fabric Content Registries (v0), Fabric Entity Events (v1), Fabric Registry Sync (v0), Fabric Data Generation API (v1), Fabric Loader, Fabric Convention Tags, Fabric Transitive Access Wideners (v1), Fabric Client Tags, YetAnotherConfigLib, Fabric Rendering Data Attachment (v1), Fabric API Base, Fabric Rendering Fluids (v1), Fabric Key Binding API (v1), Fabric Item Groups (v0), Zoomify, Fabric Dimensions API (v1), Fabric Command API (v2), Fabric Textures (v0), Fabric Game Rule API (v1), Fabric Renderer - Indigo, Fabric Networking API (v1), Fabric Object Builder API (v1), Fabric Biome API (v1), Fabric Renderer API (v1), Fabric Particles (v1), Fabric Transfer API (v1), Fabric Resource Loader (v0), Fabric BlockRenderLayer Registration (v1), Smooth Boot, Fabric Screen API (v1), Fabric Crash Report Info (v1), Fabric Events Interaction (v0), Fabric Models (v0), Sodium, Fabric Game Test API (v1), Fabric Message API (v1), Fabric Lifecycle Events (v1), Aenarim, Fabric Item API (v1), Fabric Language Kotlin, Lithium, Fabric Screen Handler API (v1), Fabric API Lookup API (v1), Fabric Sound API (v1), Fabric Resource Conditions API (v1), Fabric Rendering (v1))
+[01:49:48] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[01:49:50] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[01:49:50] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[01:49:50] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speakers (Realtek High Definition Audio)
+[01:49:50] [Render thread/INFO] (Minecraft) Sound engine started
+[01:49:50] [Render thread/INFO] (Minecraft) Created: 1024x1024x2 minecraft:textures/atlas/blocks.png-atlas
+[01:49:51] [Render thread/INFO] (Minecraft) Created: 256x128x2 minecraft:textures/atlas/signs.png-atlas
+[01:49:51] [Render thread/INFO] (Minecraft) Created: 1024x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[01:49:51] [Render thread/INFO] (Minecraft) Created: 1024x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[01:49:51] [Render thread/INFO] (Minecraft) Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[01:49:51] [Render thread/INFO] (Minecraft) Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[01:49:51] [Render thread/INFO] (Minecraft) Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[01:49:52] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[01:49:52] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[01:49:52] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[01:49:52] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[01:50:04] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_pickaxe
 com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:248) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson(ShapedRecipe.java:231) ~[minecraft-project-@-merged-named.jar:?]
@@ -137,10 +165,9 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -148,7 +175,7 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:11] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_sword
+[01:50:04] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_sword
 com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:248) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson(ShapedRecipe.java:231) ~[minecraft-project-@-merged-named.jar:?]
@@ -182,10 +209,9 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -193,7 +219,7 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:11] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_shovel
+[01:50:04] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_shovel
 com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:248) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson(ShapedRecipe.java:231) ~[minecraft-project-@-merged-named.jar:?]
@@ -227,10 +253,9 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -238,7 +263,7 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:11] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_hoe
+[01:50:04] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_hoe
 com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:248) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson(ShapedRecipe.java:231) ~[minecraft-project-@-merged-named.jar:?]
@@ -272,10 +297,9 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -283,7 +307,7 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:11] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_pickaxe
+[01:50:04] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_pickaxe
 com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:248) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson(ShapedRecipe.java:231) ~[minecraft-project-@-merged-named.jar:?]
@@ -317,10 +341,9 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -328,7 +351,7 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:11] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_axe
+[01:50:04] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_axe
 com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:248) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson(ShapedRecipe.java:231) ~[minecraft-project-@-merged-named.jar:?]
@@ -362,10 +385,9 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -373,7 +395,7 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:11] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_shovel
+[01:50:04] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_shovel
 com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:248) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson(ShapedRecipe.java:231) ~[minecraft-project-@-merged-named.jar:?]
@@ -407,10 +429,9 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -418,7 +439,7 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:11] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_sword
+[01:50:04] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_sword
 com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:248) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson(ShapedRecipe.java:231) ~[minecraft-project-@-merged-named.jar:?]
@@ -452,10 +473,9 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -463,7 +483,7 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:11] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_axe
+[01:50:04] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_axe
 com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:248) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson(ShapedRecipe.java:231) ~[minecraft-project-@-merged-named.jar:?]
@@ -497,10 +517,9 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -508,7 +527,7 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:11] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_hoe
+[01:50:04] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_hoe
 com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:248) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson(ShapedRecipe.java:231) ~[minecraft-project-@-merged-named.jar:?]
@@ -542,10 +561,9 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -553,8 +571,8 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:11] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[22:46:12] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/warped_wood
+[01:50:05] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[01:50:05] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/warped_wood
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:warped_wood'
 	at net.minecraft.util.GsonHelper.method_17995(GsonHelper.java:140) ~[minecraft-project-@-merged-named.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -620,10 +638,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -631,7 +648,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:12] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/crimson_wood
+[01:50:05] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/crimson_wood
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:crimson_wood'
 	at net.minecraft.util.GsonHelper.method_17995(GsonHelper.java:140) ~[minecraft-project-@-merged-named.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -697,10 +714,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -708,7 +724,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:12] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/stripped_crimson_wood
+[01:50:05] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/stripped_crimson_wood
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:stripped_crimson_wood'
 	at net.minecraft.util.GsonHelper.method_17995(GsonHelper.java:140) ~[minecraft-project-@-merged-named.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -774,10 +790,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -785,7 +800,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:12] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/stripped_warped_wood
+[01:50:05] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/stripped_warped_wood
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:stripped_warped_wood'
 	at net.minecraft.util.GsonHelper.method_17995(GsonHelper.java:140) ~[minecraft-project-@-merged-named.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -851,10 +866,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -862,22 +876,22 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:13] [Render thread/ERROR] (Minecraft) Parsing error loading custom advancement minecraft:story/upgrade_tools: Unknown required criterion 'flint_pickaxe'
-[22:46:13] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/obtain_armor: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancements.DisplayInfo@564815fd, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={iron_boots=net.minecraft.advancements.Criterion@2b8598a2, iron_chestplate=net.minecraft.advancements.Criterion@765a09fc, iron_leggings=net.minecraft.advancements.Criterion@648d6010, iron_helmet=net.minecraft.advancements.Criterion@5e612795}, requirements=[[iron_helmet, iron_chestplate, iron_leggings, iron_boots]]}
-[22:46:13] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/lava_bucket: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancements.DisplayInfo@70176150, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={lava_bucket=net.minecraft.advancements.Criterion@279dbd48}, requirements=[[lava_bucket]]}
-[22:46:13] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/deflect_arrow: Task Advancement{parentId=minecraft:story/obtain_armor, display=net.minecraft.advancements.DisplayInfo@55f83aaf, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={deflected_projectile=net.minecraft.advancements.Criterion@1fc5aaa5}, requirements=[[deflected_projectile]]}
-[22:46:13] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/iron_tools: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancements.DisplayInfo@189c55bf, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={iron_pickaxe=net.minecraft.advancements.Criterion@2abe448b}, requirements=[[iron_pickaxe]]}
-[22:46:13] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enter_the_nether: Task Advancement{parentId=minecraft:story/form_obsidian, display=net.minecraft.advancements.DisplayInfo@78bfc2d3, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={entered_nether=net.minecraft.advancements.Criterion@207d4b53}, requirements=[[entered_nether]]}
-[22:46:13] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/cure_zombie_villager: Task Advancement{parentId=minecraft:story/enter_the_nether, display=net.minecraft.advancements.DisplayInfo@70fbe3dd, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={cured_zombie=net.minecraft.advancements.Criterion@3a161942}, requirements=[[cured_zombie]]}
-[22:46:13] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/form_obsidian: Task Advancement{parentId=minecraft:story/lava_bucket, display=net.minecraft.advancements.DisplayInfo@343ebd7b, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={obsidian=net.minecraft.advancements.Criterion@3ee86eb7}, requirements=[[obsidian]]}
-[22:46:13] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/smelt_iron: Task Advancement{parentId=minecraft:story/upgrade_tools, display=net.minecraft.advancements.DisplayInfo@1fd0d5da, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={iron=net.minecraft.advancements.Criterion@62309d41}, requirements=[[iron]]}
-[22:46:13] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/shiny_gear: Task Advancement{parentId=minecraft:story/mine_diamond, display=net.minecraft.advancements.DisplayInfo@1b4f6b6d, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={diamond_leggings=net.minecraft.advancements.Criterion@7d7337d0, diamond_helmet=net.minecraft.advancements.Criterion@fcc981a, diamond_chestplate=net.minecraft.advancements.Criterion@4da18e2c, diamond_boots=net.minecraft.advancements.Criterion@2d5580f6}, requirements=[[diamond_helmet, diamond_chestplate, diamond_leggings, diamond_boots]]}
-[22:46:13] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enchant_item: Task Advancement{parentId=minecraft:story/mine_diamond, display=net.minecraft.advancements.DisplayInfo@638a98d7, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={enchanted_item=net.minecraft.advancements.Criterion@6259e660}, requirements=[[enchanted_item]]}
-[22:46:13] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/follow_ender_eye: Task Advancement{parentId=minecraft:story/enter_the_nether, display=net.minecraft.advancements.DisplayInfo@47f20fa, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={in_stronghold=net.minecraft.advancements.Criterion@29b8acf3}, requirements=[[in_stronghold]]}
-[22:46:13] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/mine_diamond: Task Advancement{parentId=minecraft:story/iron_tools, display=net.minecraft.advancements.DisplayInfo@1b9685fe, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={diamond=net.minecraft.advancements.Criterion@77256d4b}, requirements=[[diamond]]}
-[22:46:13] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enter_the_end: Task Advancement{parentId=minecraft:story/follow_ender_eye, display=net.minecraft.advancements.DisplayInfo@7e0a7c8e, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={entered_end=net.minecraft.advancements.Criterion@22190931}, requirements=[[entered_end]]}
-[22:46:13] [Render thread/INFO] (Minecraft) Loaded 1167 advancements
-[22:46:39] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_pickaxe
+[01:50:05] [Render thread/ERROR] (Minecraft) Parsing error loading custom advancement minecraft:story/upgrade_tools: Unknown required criterion 'flint_pickaxe'
+[01:50:05] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/obtain_armor: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancements.DisplayInfo@50a36e9e, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={iron_boots=net.minecraft.advancements.Criterion@732a09f6, iron_chestplate=net.minecraft.advancements.Criterion@4ec22913, iron_leggings=net.minecraft.advancements.Criterion@4b581757, iron_helmet=net.minecraft.advancements.Criterion@22721d92}, requirements=[[iron_helmet, iron_chestplate, iron_leggings, iron_boots]]}
+[01:50:05] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/lava_bucket: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancements.DisplayInfo@5508b823, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={lava_bucket=net.minecraft.advancements.Criterion@67a4b19d}, requirements=[[lava_bucket]]}
+[01:50:05] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/deflect_arrow: Task Advancement{parentId=minecraft:story/obtain_armor, display=net.minecraft.advancements.DisplayInfo@182cc5d, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={deflected_projectile=net.minecraft.advancements.Criterion@4368bda9}, requirements=[[deflected_projectile]]}
+[01:50:05] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/iron_tools: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancements.DisplayInfo@3728d35, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={iron_pickaxe=net.minecraft.advancements.Criterion@571ed07}, requirements=[[iron_pickaxe]]}
+[01:50:05] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enter_the_nether: Task Advancement{parentId=minecraft:story/form_obsidian, display=net.minecraft.advancements.DisplayInfo@195d7792, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={entered_nether=net.minecraft.advancements.Criterion@13ceb86b}, requirements=[[entered_nether]]}
+[01:50:05] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/cure_zombie_villager: Task Advancement{parentId=minecraft:story/enter_the_nether, display=net.minecraft.advancements.DisplayInfo@701a94fa, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={cured_zombie=net.minecraft.advancements.Criterion@16f16772}, requirements=[[cured_zombie]]}
+[01:50:05] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/form_obsidian: Task Advancement{parentId=minecraft:story/lava_bucket, display=net.minecraft.advancements.DisplayInfo@e9fcdc8, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={obsidian=net.minecraft.advancements.Criterion@13c8f19e}, requirements=[[obsidian]]}
+[01:50:05] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/smelt_iron: Task Advancement{parentId=minecraft:story/upgrade_tools, display=net.minecraft.advancements.DisplayInfo@265001a7, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={iron=net.minecraft.advancements.Criterion@72c050f2}, requirements=[[iron]]}
+[01:50:05] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/shiny_gear: Task Advancement{parentId=minecraft:story/mine_diamond, display=net.minecraft.advancements.DisplayInfo@6facf2e2, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={diamond_leggings=net.minecraft.advancements.Criterion@1f9b6825, diamond_helmet=net.minecraft.advancements.Criterion@19e97569, diamond_chestplate=net.minecraft.advancements.Criterion@6c3174ad, diamond_boots=net.minecraft.advancements.Criterion@6482b02b}, requirements=[[diamond_helmet, diamond_chestplate, diamond_leggings, diamond_boots]]}
+[01:50:05] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enchant_item: Task Advancement{parentId=minecraft:story/mine_diamond, display=net.minecraft.advancements.DisplayInfo@157fcb69, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={enchanted_item=net.minecraft.advancements.Criterion@640d3205}, requirements=[[enchanted_item]]}
+[01:50:05] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/follow_ender_eye: Task Advancement{parentId=minecraft:story/enter_the_nether, display=net.minecraft.advancements.DisplayInfo@5e5912e4, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={in_stronghold=net.minecraft.advancements.Criterion@53498e30}, requirements=[[in_stronghold]]}
+[01:50:05] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/mine_diamond: Task Advancement{parentId=minecraft:story/iron_tools, display=net.minecraft.advancements.DisplayInfo@56fb70df, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={diamond=net.minecraft.advancements.Criterion@49dc4c3e}, requirements=[[diamond]]}
+[01:50:05] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enter_the_end: Task Advancement{parentId=minecraft:story/follow_ender_eye, display=net.minecraft.advancements.DisplayInfo@1a7a2323, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={entered_end=net.minecraft.advancements.Criterion@316c31ee}, requirements=[[entered_end]]}
+[01:50:05] [Render thread/INFO] (Minecraft) Loaded 1169 advancements
+[01:50:09] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_pickaxe
 com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:248) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson(ShapedRecipe.java:231) ~[minecraft-project-@-merged-named.jar:?]
@@ -912,10 +926,9 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -923,7 +936,7 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:39] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_sword
+[01:50:09] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_sword
 com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:248) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson(ShapedRecipe.java:231) ~[minecraft-project-@-merged-named.jar:?]
@@ -958,10 +971,9 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -969,7 +981,7 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:39] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_shovel
+[01:50:09] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_shovel
 com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:248) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson(ShapedRecipe.java:231) ~[minecraft-project-@-merged-named.jar:?]
@@ -1004,10 +1016,9 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -1015,7 +1026,7 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:39] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_hoe
+[01:50:09] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_hoe
 com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:248) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson(ShapedRecipe.java:231) ~[minecraft-project-@-merged-named.jar:?]
@@ -1050,10 +1061,9 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -1061,7 +1071,7 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:39] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_pickaxe
+[01:50:09] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_pickaxe
 com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:248) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson(ShapedRecipe.java:231) ~[minecraft-project-@-merged-named.jar:?]
@@ -1096,10 +1106,9 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -1107,7 +1116,7 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:39] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_axe
+[01:50:09] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_axe
 com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:248) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson(ShapedRecipe.java:231) ~[minecraft-project-@-merged-named.jar:?]
@@ -1142,10 +1151,9 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -1153,7 +1161,7 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:39] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_shovel
+[01:50:09] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_shovel
 com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:248) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson(ShapedRecipe.java:231) ~[minecraft-project-@-merged-named.jar:?]
@@ -1188,10 +1196,9 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -1199,7 +1206,7 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:39] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_sword
+[01:50:09] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:wooden_sword
 com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:248) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson(ShapedRecipe.java:231) ~[minecraft-project-@-merged-named.jar:?]
@@ -1234,10 +1241,9 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -1245,7 +1251,7 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:39] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_axe
+[01:50:09] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_axe
 com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:248) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson(ShapedRecipe.java:231) ~[minecraft-project-@-merged-named.jar:?]
@@ -1280,10 +1286,9 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -1291,7 +1296,7 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:39] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_hoe
+[01:50:09] [Render thread/ERROR] (Minecraft) Parsing error loading recipe minecraft:stone_hoe
 com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:248) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson(ShapedRecipe.java:231) ~[minecraft-project-@-merged-named.jar:?]
@@ -1326,10 +1331,9 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -1337,8 +1341,8 @@ com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:39] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[22:46:39] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/warped_wood
+[01:50:09] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[01:50:09] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/warped_wood
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:warped_wood'
 	at net.minecraft.util.GsonHelper.method_17995(GsonHelper.java:140) ~[minecraft-project-@-merged-named.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1405,10 +1409,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -1416,7 +1419,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:39] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/crimson_wood
+[01:50:09] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/crimson_wood
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:crimson_wood'
 	at net.minecraft.util.GsonHelper.method_17995(GsonHelper.java:140) ~[minecraft-project-@-merged-named.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1483,10 +1486,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -1494,7 +1496,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:39] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/stripped_crimson_wood
+[01:50:09] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/stripped_crimson_wood
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:stripped_crimson_wood'
 	at net.minecraft.util.GsonHelper.method_17995(GsonHelper.java:140) ~[minecraft-project-@-merged-named.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1561,10 +1563,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -1572,7 +1573,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:39] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/stripped_warped_wood
+[01:50:09] [Render thread/ERROR] (Minecraft) Couldn't parse loot table minecraft:blocks/stripped_warped_wood
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:stripped_warped_wood'
 	at net.minecraft.util.GsonHelper.method_17995(GsonHelper.java:140) ~[minecraft-project-@-merged-named.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1639,10 +1640,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:159) ~[minecraft-project-@-merged-named.jar:?]
 	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) [lwjgl-glfw-3.3.1.jar:?]
 	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:?]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) [lwjgl-glfw-3.3.1.jar:?]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:158) [minecraft-project-@-merged-named.jar:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:301) [minecraft-project-@-merged-named.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1037) [minecraft-project-@-merged-named.jar:?]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) [lwjgl-glfw-3.3.1.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:174) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1040) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:677) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.run(Main.java:219) [minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:55) [minecraft-project-@-merged-named.jar:?]
@@ -1650,22 +1650,22 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[22:46:39] [Render thread/ERROR] (Minecraft) Parsing error loading custom advancement minecraft:story/upgrade_tools: Unknown required criterion 'flint_pickaxe'
-[22:46:39] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/obtain_armor: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancements.DisplayInfo@6bcb23b7, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={iron_boots=net.minecraft.advancements.Criterion@79551ba8, iron_chestplate=net.minecraft.advancements.Criterion@22090c1d, iron_leggings=net.minecraft.advancements.Criterion@5098b0a6, iron_helmet=net.minecraft.advancements.Criterion@62fcf799}, requirements=[[iron_helmet, iron_chestplate, iron_leggings, iron_boots]]}
-[22:46:39] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/lava_bucket: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancements.DisplayInfo@4cae25aa, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={lava_bucket=net.minecraft.advancements.Criterion@49eb5399}, requirements=[[lava_bucket]]}
-[22:46:39] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/deflect_arrow: Task Advancement{parentId=minecraft:story/obtain_armor, display=net.minecraft.advancements.DisplayInfo@2fc1d0f, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={deflected_projectile=net.minecraft.advancements.Criterion@1198f152}, requirements=[[deflected_projectile]]}
-[22:46:39] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/iron_tools: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancements.DisplayInfo@21fa4b39, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={iron_pickaxe=net.minecraft.advancements.Criterion@773e2c35}, requirements=[[iron_pickaxe]]}
-[22:46:39] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enter_the_nether: Task Advancement{parentId=minecraft:story/form_obsidian, display=net.minecraft.advancements.DisplayInfo@7486bce9, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={entered_nether=net.minecraft.advancements.Criterion@725f69c8}, requirements=[[entered_nether]]}
-[22:46:39] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/cure_zombie_villager: Task Advancement{parentId=minecraft:story/enter_the_nether, display=net.minecraft.advancements.DisplayInfo@68c2c180, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={cured_zombie=net.minecraft.advancements.Criterion@61daf479}, requirements=[[cured_zombie]]}
-[22:46:39] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/form_obsidian: Task Advancement{parentId=minecraft:story/lava_bucket, display=net.minecraft.advancements.DisplayInfo@2b7b29a4, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={obsidian=net.minecraft.advancements.Criterion@1db4798e}, requirements=[[obsidian]]}
-[22:46:39] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/smelt_iron: Task Advancement{parentId=minecraft:story/upgrade_tools, display=net.minecraft.advancements.DisplayInfo@75672a59, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={iron=net.minecraft.advancements.Criterion@4ba14572}, requirements=[[iron]]}
-[22:46:39] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/shiny_gear: Task Advancement{parentId=minecraft:story/mine_diamond, display=net.minecraft.advancements.DisplayInfo@24f9fecb, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={diamond_leggings=net.minecraft.advancements.Criterion@6532a5f3, diamond_helmet=net.minecraft.advancements.Criterion@37d4914e, diamond_chestplate=net.minecraft.advancements.Criterion@5e9e9070, diamond_boots=net.minecraft.advancements.Criterion@357a32ce}, requirements=[[diamond_helmet, diamond_chestplate, diamond_leggings, diamond_boots]]}
-[22:46:39] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enchant_item: Task Advancement{parentId=minecraft:story/mine_diamond, display=net.minecraft.advancements.DisplayInfo@7c6db409, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={enchanted_item=net.minecraft.advancements.Criterion@18e50508}, requirements=[[enchanted_item]]}
-[22:46:39] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/follow_ender_eye: Task Advancement{parentId=minecraft:story/enter_the_nether, display=net.minecraft.advancements.DisplayInfo@77329ddb, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={in_stronghold=net.minecraft.advancements.Criterion@474f1b70}, requirements=[[in_stronghold]]}
-[22:46:39] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/mine_diamond: Task Advancement{parentId=minecraft:story/iron_tools, display=net.minecraft.advancements.DisplayInfo@4554504, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={diamond=net.minecraft.advancements.Criterion@3b7e5a65}, requirements=[[diamond]]}
-[22:46:39] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enter_the_end: Task Advancement{parentId=minecraft:story/follow_ender_eye, display=net.minecraft.advancements.DisplayInfo@54e8d08e, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@68fa4599}, criteria={entered_end=net.minecraft.advancements.Criterion@1d8c0504}, requirements=[[entered_end]]}
-[22:46:39] [Render thread/INFO] (Minecraft) Loaded 1167 advancements
-[22:46:40] [Worker-Main-5/ERROR] (Minecraft) Failed to retrieve profile key pair
+[01:50:09] [Render thread/ERROR] (Minecraft) Parsing error loading custom advancement minecraft:story/upgrade_tools: Unknown required criterion 'flint_pickaxe'
+[01:50:09] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/obtain_armor: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancements.DisplayInfo@72e2a6bb, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={iron_boots=net.minecraft.advancements.Criterion@11407ae1, iron_chestplate=net.minecraft.advancements.Criterion@74c5d418, iron_leggings=net.minecraft.advancements.Criterion@6082768a, iron_helmet=net.minecraft.advancements.Criterion@7b2d35f}, requirements=[[iron_helmet, iron_chestplate, iron_leggings, iron_boots]]}
+[01:50:09] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/lava_bucket: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancements.DisplayInfo@3c4d5ccd, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={lava_bucket=net.minecraft.advancements.Criterion@2d744830}, requirements=[[lava_bucket]]}
+[01:50:09] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/deflect_arrow: Task Advancement{parentId=minecraft:story/obtain_armor, display=net.minecraft.advancements.DisplayInfo@5a0a52db, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={deflected_projectile=net.minecraft.advancements.Criterion@5530a462}, requirements=[[deflected_projectile]]}
+[01:50:09] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/iron_tools: Task Advancement{parentId=minecraft:story/smelt_iron, display=net.minecraft.advancements.DisplayInfo@1fc0193e, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={iron_pickaxe=net.minecraft.advancements.Criterion@4f03ad10}, requirements=[[iron_pickaxe]]}
+[01:50:09] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enter_the_nether: Task Advancement{parentId=minecraft:story/form_obsidian, display=net.minecraft.advancements.DisplayInfo@63d37d32, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={entered_nether=net.minecraft.advancements.Criterion@31ea2775}, requirements=[[entered_nether]]}
+[01:50:09] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/cure_zombie_villager: Task Advancement{parentId=minecraft:story/enter_the_nether, display=net.minecraft.advancements.DisplayInfo@24a8982, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={cured_zombie=net.minecraft.advancements.Criterion@627bc731}, requirements=[[cured_zombie]]}
+[01:50:09] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/form_obsidian: Task Advancement{parentId=minecraft:story/lava_bucket, display=net.minecraft.advancements.DisplayInfo@558202bd, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={obsidian=net.minecraft.advancements.Criterion@697c1573}, requirements=[[obsidian]]}
+[01:50:09] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/smelt_iron: Task Advancement{parentId=minecraft:story/upgrade_tools, display=net.minecraft.advancements.DisplayInfo@515dcf98, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={iron=net.minecraft.advancements.Criterion@58038f4d}, requirements=[[iron]]}
+[01:50:09] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/shiny_gear: Task Advancement{parentId=minecraft:story/mine_diamond, display=net.minecraft.advancements.DisplayInfo@2a71ff4a, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={diamond_leggings=net.minecraft.advancements.Criterion@6e4c74ae, diamond_helmet=net.minecraft.advancements.Criterion@4eec80e1, diamond_chestplate=net.minecraft.advancements.Criterion@2573be0f, diamond_boots=net.minecraft.advancements.Criterion@dd8e44}, requirements=[[diamond_helmet, diamond_chestplate, diamond_leggings, diamond_boots]]}
+[01:50:09] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enchant_item: Task Advancement{parentId=minecraft:story/mine_diamond, display=net.minecraft.advancements.DisplayInfo@1fc3500d, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={enchanted_item=net.minecraft.advancements.Criterion@7300521f}, requirements=[[enchanted_item]]}
+[01:50:09] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/follow_ender_eye: Task Advancement{parentId=minecraft:story/enter_the_nether, display=net.minecraft.advancements.DisplayInfo@57b07ee4, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={in_stronghold=net.minecraft.advancements.Criterion@26514ea7}, requirements=[[in_stronghold]]}
+[01:50:09] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/mine_diamond: Task Advancement{parentId=minecraft:story/iron_tools, display=net.minecraft.advancements.DisplayInfo@20f0711a, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={diamond=net.minecraft.advancements.Criterion@c7837d5}, requirements=[[diamond]]}
+[01:50:09] [Render thread/ERROR] (Minecraft) Couldn't load advancement minecraft:story/enter_the_end: Task Advancement{parentId=minecraft:story/follow_ender_eye, display=net.minecraft.advancements.DisplayInfo@a97d418, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6c40b06e}, criteria={entered_end=net.minecraft.advancements.Criterion@479c9c00}, requirements=[[entered_end]]}
+[01:50:09] [Render thread/INFO] (Minecraft) Loaded 1169 advancements
+[01:50:09] [Worker-Main-4/ERROR] (Minecraft) Failed to retrieve profile key pair
 java.io.IOException: Could not retrieve profile key pair
 	at net.minecraft.client.multiplayer.ProfileKeyPairManager.fetchProfileKeyPair(ProfileKeyPairManager.java:151) ~[minecraft-project-@-merged-named.jar:?]
 	at net.minecraft.client.multiplayer.ProfileKeyPairManager.method_44291(ProfileKeyPairManager.java:72) ~[minecraft-project-@-merged-named.jar:?]
@@ -1676,140 +1676,125 @@ java.io.IOException: Could not retrieve profile key pair
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[22:46:40] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 63 new biomes in 4.584 ms
-[22:46:40] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.2
-[22:46:40] [Server thread/INFO] (Minecraft) Generating keypair
-[22:46:41] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[22:46:45] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:45] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:45] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:45] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:45] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:45] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:45] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:45] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:46] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:47] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:47] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:48] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:48] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:49] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:50] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:50] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:50] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:50] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:52] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:52] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:52] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[22:46:53] [Render thread/INFO] (Minecraft) Preparing spawn area: 1%
-[22:46:54] [Render thread/INFO] (Minecraft) Preparing spawn area: 3%
-[22:46:54] [Render thread/INFO] (Minecraft) Preparing spawn area: 3%
-[22:46:55] [Render thread/INFO] (Minecraft) Preparing spawn area: 6%
-[22:46:55] [Render thread/INFO] (Minecraft) Preparing spawn area: 7%
-[22:46:55] [Render thread/INFO] (Minecraft) Preparing spawn area: 7%
-[22:46:56] [Render thread/INFO] (Minecraft) Preparing spawn area: 38%
-[22:46:59] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
-[22:46:59] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
-[22:47:02] [Render thread/INFO] (Minecraft) Time elapsed: 19837 ms
-[22:47:02] [Server thread/INFO] (Minecraft) Player104[local:E:3a14c7e3] logged in with entity id 165 at (62.49015441113915, 72.0, 338.4690013898212)
-[22:47:02] [Server thread/INFO] (Minecraft) Player104 joined the game
-[22:47:05] [Render thread/INFO] (Minecraft) Loaded 0 advancements
-[22:47:08] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:47:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:47:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:47:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:47:11] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 3887ms or 77 ticks behind
-[22:47:43] [Worker-Bootstrap-3/INFO] (Minecraft) 4283 Datafixer optimizations took 130290 milliseconds
-[22:49:02] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:49:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:49:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:49:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:49:05] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[22:49:05] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[22:49:05] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speakers (Realtek High Definition Audio)
-[22:49:05] [Render thread/INFO] (Minecraft) Sound engine started
-[22:49:15] [Server thread/INFO] (Minecraft) [Player104: Set own game mode to Survival Mode]
-[22:49:15] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Survival Mode
-[22:49:23] [Render thread/INFO] (Minecraft) Loaded 4 advancements
-[22:49:29] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[22:49:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:49:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:49:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:49:30] [Server thread/INFO] (Minecraft) Player104 lost connection: Disconnected
-[22:49:30] [Server thread/INFO] (Minecraft) Player104 left the game
-[22:49:30] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[22:49:30] [Server thread/INFO] (Minecraft) Stopping server
-[22:49:30] [Server thread/INFO] (Minecraft) Saving players
-[22:49:30] [Server thread/INFO] (Minecraft) Saving worlds
-[22:49:31] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[22:49:31] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[22:49:31] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[22:49:31] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
-[22:49:31] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:49:31] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:49:31] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
-[22:54:58] [Render thread/INFO] (fabric-screen-api-v1) Stopping!
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[22:54:58] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:50:10] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 63 new biomes in 5.309 ms
+[01:50:10] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.2
+[01:50:10] [Server thread/INFO] (Minecraft) Generating keypair
+[01:50:11] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[01:50:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[01:50:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[01:50:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[01:50:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[01:50:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[01:50:13] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[01:50:14] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[01:50:14] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[01:50:15] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[01:50:15] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[01:50:16] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[01:50:16] [Render thread/INFO] (Minecraft) Preparing spawn area: 3%
+[01:50:17] [Render thread/INFO] (Minecraft) Preparing spawn area: 6%
+[01:50:17] [Render thread/INFO] (Minecraft) Preparing spawn area: 43%
+[01:50:18] [Render thread/INFO] (Minecraft) Preparing spawn area: 83%
+[01:50:18] [Render thread/INFO] (Minecraft) Time elapsed: 7529 ms
+[01:50:19] [Server thread/INFO] (Minecraft) Changing view distance to 6, from 10
+[01:50:19] [Server thread/INFO] (Minecraft) Changing simulation distance to 5, from 0
+[01:50:20] [Server thread/INFO] (Minecraft) Player803[local:E:fa3e1b61] logged in with entity id 229 at (22.84559092809013, 65.75100562356273, 69.21732452241677)
+[01:50:20] [Server thread/INFO] (Minecraft) Player803 joined the game
+[01:50:21] [Render thread/INFO] (ChunkBuilder) Started 1 worker threads
+[01:50:22] [Render thread/INFO] (Minecraft) Loaded 2 advancements
+[01:51:34] [Render thread/WARN] (Minecraft) Unable to play empty soundEvent: minecraft:entity.tropical_fish.ambient
+[01:51:38] [Render thread/WARN] (Minecraft) Unable to play empty soundEvent: minecraft:entity.cod.ambient
+[01:51:45] [Server thread/INFO] (Minecraft) Player803 has made the advancement [Something sharp]
+[01:51:45] [Render thread/INFO] (Minecraft) [System] [CHAT] Player803 has made the advancement [Something sharp]
+[01:51:45] [Render thread/INFO] (Minecraft) Loaded 8 advancements
+[01:51:51] [Server thread/INFO] (Minecraft) Player803 has made the advancement [A primitive type of string]
+[01:51:51] [Render thread/INFO] (Minecraft) [System] [CHAT] Player803 has made the advancement [A primitive type of string]
+[01:51:51] [Render thread/INFO] (Minecraft) Loaded 9 advancements
+[01:52:00] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[01:52:00] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[01:52:00] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[01:52:00] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[01:52:11] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[01:52:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[01:52:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[01:52:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[01:52:12] [Server thread/INFO] (Minecraft) Player803 lost connection: Disconnected
+[01:52:12] [Server thread/INFO] (Minecraft) Player803 left the game
+[01:52:12] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[01:52:12] [Server thread/INFO] (Minecraft) Stopping server
+[01:52:12] [Server thread/INFO] (Minecraft) Saving players
+[01:52:12] [Server thread/INFO] (Minecraft) Saving worlds
+[01:52:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[01:52:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[01:52:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[01:52:13] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[01:52:13] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:52:13] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:52:13] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[01:52:13] [Render thread/INFO] (ChunkBuilder) Stopping worker threads
+[01:52:14] [Render thread/INFO] (fabric-screen-api-v1) Stopping!
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[01:52:14] [Render thread/INFO] (Minecraft) OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'

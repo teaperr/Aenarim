@@ -262,6 +262,71 @@
           "src/main/resources/data/minecraft/tags/items/pickaxes.json"
         ]
       }
+    },
+    {
+      "name": "Hoes",
+      "type": "tag",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/hoes.json"
+        ]
+      }
+    },
+    {
+      "name": "Swords",
+      "type": "tag",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swords",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/swords.json"
+        ]
+      }
+    },
+    {
+      "name": "Shovels",
+      "type": "tag",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shovels",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/shovels.json"
+        ]
+      }
+    },
+    {
+      "name": "BlacklistItemsLoop",
+      "type": "function",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blacklist_items_loop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aenarim/functions/blacklist_items_loop.mcfunction"
+        ]
+      }
+    },
+    {
+      "name": "Test",
+      "type": "function",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aenarim/functions/test.mcfunction"
+        ]
+      }
     }
   ],
   "variable_elements": [],
