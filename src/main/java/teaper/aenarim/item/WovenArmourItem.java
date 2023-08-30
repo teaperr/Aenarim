@@ -23,12 +23,12 @@ public abstract class WovenArmourItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{2, 5, 6, 2}[slot.getIndex()];
+				return new int[]{2, 2, 3, 2}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 4;
+				return 8;
 			}
 
 			@Override

@@ -11,6 +11,7 @@ import teaper.aenarim.item.FlintKnifeItem;
 import teaper.aenarim.item.FlintHoeItem;
 import teaper.aenarim.item.FlintHatchetItem;
 import teaper.aenarim.item.FibreItem;
+import teaper.aenarim.item.DriedFibreItem;
 import teaper.aenarim.AenarimMod;
 
 import net.minecraft.world.item.Item;
@@ -26,6 +27,7 @@ public class AenarimModItems {
 	public static Item FLINT_PICKAXE;
 	public static Item WOVEN_ARMOUR_CHESTPLATE;
 	public static Item WOVEN_ARMOUR_LEGGINGS;
+	public static Item DRIED_FIBRE;
 
 	public static void load() {
 		FIBRE = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "fibre"), new FibreItem());
@@ -36,5 +38,6 @@ public class AenarimModItems {
 		FLINT_PICKAXE = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "flint_pickaxe"), new FlintPickaxeItem());
 		WOVEN_ARMOUR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "woven_armour_chestplate"), new WovenArmourItem.Chestplate());
 		WOVEN_ARMOUR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "woven_armour_leggings"), new WovenArmourItem.Leggings());
+		DRIED_FIBRE = Registry.register(Registry.ITEM, new ResourceLocation(AenarimMod.MODID, "dried_fibre"), new DriedFibreItem());
 	}
 }

@@ -39,7 +39,8 @@
       "aenarim:craft_flint_hatchet",
       "aenarim:craft_flint_pickaxe",
       "aenarim:craft_flint_shovel",
-      "aenarim:craft_flint_hoe"
+      "aenarim:craft_flint_hoe",
+      "aenarim:drying_fibre"
     ]
   },
   "parent": "aenarim:gather_flint"

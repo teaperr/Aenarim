@@ -18,7 +18,8 @@
       "CraftFlintHatchet",
       "CraftFlintPickaxe",
       "CraftFlintShovel",
-      "CraftFlintHoe"
+      "CraftFlintHoe",
+      "DryingFibre"
     ],
     "rewardFunction": "No function",
     "rewardXP": 0,

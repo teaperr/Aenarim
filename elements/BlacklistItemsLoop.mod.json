@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "function",
   "definition": {
-    "code": "clear @a #aenarim:listtools\nclear @a #aenarim:listarmors\nschedule function aenarim:blacklist_items_loop 2s",
+    "code": "clear @a #aenarim:listtools\nclear @a #aenarim:listarmors\nschedule function aenarim:blacklist_items_loop 1s",
     "name": "blacklist_items_loop",
     "namespace": "mod"
   }
