@@ -395,6 +395,67 @@
           "src/main/resources/data/aenarim/recipes/craft_woven_leggings.json"
         ]
       }
+    },
+    {
+      "name": "SharpBone",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharp_bone",
+      "metadata": {
+        "files": [
+          "src/main/java/teaper/aenarim/item/SharpBoneItem.java",
+          "src/main/resources/assets/aenarim/models/item/sharp_bone.json"
+        ]
+      }
+    },
+    {
+      "name": "GatherSharpBone",
+      "type": "achievement",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gather_sharp_bone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aenarim/advancements/gather_sharp_bone.json"
+        ]
+      }
+    },
+    {
+      "name": "FlintShieldTakeDurability",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_shield_take_durability",
+      "metadata": {
+        "files": [
+          "src/main/java/teaper/aenarim/procedures/FlintShieldTakeDurabilityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlintShield",
+      "type": "rangeditem",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_shield",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aenarim/models/item/flint_shield.json",
+          "src/main/java/teaper/aenarim/entity/FlintShieldEntity.java",
+          "src/main/java/teaper/aenarim/item/FlintShieldItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -407,12 +468,16 @@
       "advancements.gather_fibre.descr": "Gather fibre from cutting grass with a flint knife.",
       "item.aenarim.woven_armour_helmet": "Woven Armour Helmet",
       "item.aenarim.flint_hatchet": "Flint Hatchet",
+      "advancements.gather_sharp_bone.title": "Ow! Pointy!",
       "advancements.gather_fibre.title": "A primitive type of string",
       "item.aenarim.flint_knife": "Flint Knife",
       "item.aenarim.woven_armour_chestplate": "Woven Chestplate",
+      "item.aenarim.sharp_bone": "Sharp Bone",
+      "advancements.gather_sharp_bone.descr": "Get a sharp bone from a skeleton, which can be used to make slightly better tools",
       "item.aenarim.flint_shovel": "Flint Shovel",
       "item.aenarim.fibre": "Fibre",
       "advancements.gather_flint.title": "Something sharp",
+      "item.aenarim.flint_shield": "Flint Shield",
       "advancements.gather_flint.descr": "Acquire flint from gravel, a useful material for basic tools.",
       "item.aenarim.woven_armour_boots": "Woven Armour Boots",
       "item.aenarim.flint_pickaxe": "Flint Pickaxe"
@@ -425,7 +490,8 @@
   "workspaceSettings": {
     "modid": "aenarim",
     "modName": "Aenarim",
-    "version": "1.0.0",
+    "version": "0.0.8",
+    "description": "An overhaul of Minecraft\u0027s stupidly linear progression system.",
     "author": "Thea (teaper_)",
     "websiteURL": "https://discord.com/users/903660750277599322",
     "license": "Academic Free License v3.0",
