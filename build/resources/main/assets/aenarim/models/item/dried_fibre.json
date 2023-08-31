@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "aenarim:items/dried_fibred"
+    "layer0": "aenarim:items/dried_fibre"
   }
 }

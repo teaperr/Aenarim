@@ -1,8 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "aenarim",
-  "version": "1.0.0",
+  "version": "0.0.8",
   "name": "Aenarim",
+  "description": "An overhaul of Minecraft's stupidly linear progression system.",
   "authors": [
     "Thea (teaper_)"
   ],
