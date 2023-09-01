@@ -36,6 +36,6 @@ public class BoneSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(AenarimModItems.SHARP_BONE));
 			}
-		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -2.3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 	}
 }

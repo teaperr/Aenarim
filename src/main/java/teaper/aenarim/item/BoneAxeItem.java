@@ -14,7 +14,7 @@ public class BoneAxeItem extends AxeItem {
 	public BoneAxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 250;
+				return 150;
 			}
 
 			public float getSpeed() {
@@ -22,7 +22,7 @@ public class BoneAxeItem extends AxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 3f;
+				return 2f;
 			}
 
 			public int getLevel() {
@@ -30,12 +30,12 @@ public class BoneAxeItem extends AxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 14;
+				return 10;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(AenarimModItems.SHARP_BONE));
 			}
-		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -3.1f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
 }

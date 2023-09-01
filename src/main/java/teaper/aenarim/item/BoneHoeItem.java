@@ -36,6 +36,6 @@ public class BoneHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(AenarimModItems.SHARP_BONE));
 			}
-		}, 0, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 0, -1.5f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
 }
