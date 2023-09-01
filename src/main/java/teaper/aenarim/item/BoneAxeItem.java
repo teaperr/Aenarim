@@ -18,15 +18,15 @@ public class BoneAxeItem extends AxeItem {
 			}
 
 			public float getSpeed() {
-				return 6f;
+				return 4f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 0f;
+				return 3f;
 			}
 
 			public int getLevel() {
-				return 2;
+				return 1;
 			}
 
 			public int getEnchantmentValue() {

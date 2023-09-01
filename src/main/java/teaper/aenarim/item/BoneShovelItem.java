@@ -14,11 +14,11 @@ public class BoneShovelItem extends ShovelItem {
 	public BoneShovelItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 250;
+				return 130;
 			}
 
 			public float getSpeed() {
-				return 6f;
+				return 5f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -26,11 +26,11 @@ public class BoneShovelItem extends ShovelItem {
 			}
 
 			public int getLevel() {
-				return 2;
+				return 1;
 			}
 
 			public int getEnchantmentValue() {
-				return 14;
+				return 10;
 			}
 
 			public Ingredient getRepairIngredient() {

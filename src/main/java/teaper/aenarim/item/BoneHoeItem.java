@@ -14,11 +14,11 @@ public class BoneHoeItem extends HoeItem {
 	public BoneHoeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 250;
+				return 120;
 			}
 
 			public float getSpeed() {
-				return 6f;
+				return 4f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -26,11 +26,11 @@ public class BoneHoeItem extends HoeItem {
 			}
 
 			public int getLevel() {
-				return 2;
+				return 1;
 			}
 
 			public int getEnchantmentValue() {
-				return 14;
+				return 10;
 			}
 
 			public Ingredient getRepairIngredient() {

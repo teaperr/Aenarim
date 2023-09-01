@@ -424,129 +424,149 @@
       }
     },
     {
-      "name": "SharpPickaxe",
+      "name": "BonePickaxe",
       "type": "tool",
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sharp_pickaxe",
+      "registry_name": "bone_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/teaper/aenarim/item/SharpPickaxeItem.java",
-          "src/main/resources/assets/aenarim/models/item/sharp_pickaxe.json"
+          "src/main/java/teaper/aenarim/item/BonePickaxeItem.java",
+          "src/main/resources/assets/aenarim/models/item/bone_pickaxe.json"
         ]
-      }
+      },
+      "path": "~/BoneTools"
     },
     {
-      "name": "SharpAxe",
+      "name": "BoneAxe",
       "type": "tool",
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sharp_axe",
+      "registry_name": "bone_axe",
       "metadata": {
         "files": [
-          "src/main/java/teaper/aenarim/item/SharpAxeItem.java",
-          "src/main/resources/assets/aenarim/models/item/sharp_axe.json"
+          "src/main/resources/assets/aenarim/models/item/bone_axe.json",
+          "src/main/java/teaper/aenarim/item/BoneAxeItem.java"
         ]
-      }
+      },
+      "path": "~/BoneTools"
     },
     {
-      "name": "SharpSword",
+      "name": "BoneSword",
       "type": "tool",
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sharp_sword",
+      "registry_name": "bone_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aenarim/models/item/sharp_sword.json",
-          "src/main/java/teaper/aenarim/item/SharpSwordItem.java"
+          "src/main/resources/assets/aenarim/models/item/bone_sword.json",
+          "src/main/java/teaper/aenarim/item/BoneSwordItem.java"
         ]
-      }
+      },
+      "path": "~/BoneTools"
     },
     {
-      "name": "SharpShovel",
+      "name": "BoneShovel",
       "type": "tool",
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sharp_shovel",
+      "registry_name": "bone_shovel",
       "metadata": {
         "files": [
-          "src/main/java/teaper/aenarim/item/SharpShovelItem.java",
-          "src/main/resources/assets/aenarim/models/item/sharp_shovel.json"
+          "src/main/resources/assets/aenarim/models/item/bone_shovel.json",
+          "src/main/java/teaper/aenarim/item/BoneShovelItem.java"
         ]
-      }
+      },
+      "path": "~/BoneTools"
     },
     {
-      "name": "SharpHoe",
+      "name": "BoneHoe",
       "type": "tool",
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sharp_hoe",
+      "registry_name": "bone_hoe",
       "metadata": {
         "files": [
-          "src/main/java/teaper/aenarim/item/SharpHoeItem.java",
-          "src/main/resources/assets/aenarim/models/item/sharp_hoe.json"
+          "src/main/resources/assets/aenarim/models/item/bone_hoe.json",
+          "src/main/java/teaper/aenarim/item/BoneHoeItem.java"
         ]
-      }
+      },
+      "path": "~/BoneTools"
     },
     {
-      "name": "SharpPickaxeRecipe",
+      "name": "BonePickaxeRecipe",
       "type": "recipe",
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sharp_pickaxe_recipe",
+      "registry_name": "bone_pickaxe_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/aenarim/recipes/sharp_pickaxe_recipe.json"
+          "src/main/resources/data/aenarim/recipes/bone_pickaxe_recipe.json"
         ]
-      }
+      },
+      "path": "~/BoneTools"
     },
     {
-      "name": "SharpAxeRecipe",
+      "name": "BoneAxeRecipe",
       "type": "recipe",
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sharp_axe_recipe",
+      "registry_name": "bone_axe_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/aenarim/recipes/sharp_axe_recipe.json"
+          "src/main/resources/data/aenarim/recipes/bone_axe_recipe.json"
         ]
-      }
+      },
+      "path": "~/BoneTools"
     },
     {
-      "name": "SharpSwordRecipe",
+      "name": "BoneSwordRecipe",
       "type": "recipe",
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sharp_sword_recipe",
+      "registry_name": "bone_sword_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/aenarim/recipes/sharp_sword_recipe.json"
+          "src/main/resources/data/aenarim/recipes/bone_sword_recipe.json"
         ]
-      }
+      },
+      "path": "~/BoneTools"
     },
     {
-      "name": "SharpShovelRecipe",
+      "name": "BoneShovelRecipe",
       "type": "recipe",
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sharp_shovel_recipe",
+      "registry_name": "bone_shovel_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/aenarim/recipes/sharp_shovel_recipe.json"
+          "src/main/resources/data/aenarim/recipes/bone_shovel_recipe.json"
         ]
-      }
+      },
+      "path": "~/BoneTools"
     },
     {
-      "name": "SharpHoeRecipe",
+      "name": "BoneHoeRecipe",
       "type": "recipe",
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sharp_hoe_recipe",
+      "registry_name": "bone_hoe_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/aenarim/recipes/sharp_hoe_recipe.json"
+          "src/main/resources/data/aenarim/recipes/bone_hoe_recipe.json"
         ]
-      }
+      },
+      "path": "~/BoneTools"
     }
   ],
   "variable_elements": [],
@@ -554,33 +574,38 @@
   "language_map": {
     "en_us": {
       "item.aenarim.dried_fibre": "Dried Fibre",
-      "item.aenarim.sharp_sword": "Sharp Sword",
+      "item.aenarim.bone_shovel": "Bone Shovel",
       "item.aenarim.flint_hoe": "Flint Hoe",
       "item.aenarim.woven_armour_leggings": "Woven Leggings",
-      "item.aenarim.sharp_hoe": "Sharp Hoe",
       "advancements.gather_fibre.descr": "Gather fibre from cutting grass with a flint knife.",
       "item.aenarim.woven_armour_helmet": "Woven Armour Helmet",
+      "item.aenarim.bone_pickaxe": "Bone Pickaxe",
       "item.aenarim.flint_hatchet": "Flint Hatchet",
       "advancements.gather_sharp_bone.title": "Ow! Pointy!",
-      "item.aenarim.sharp_shovel": "Sharp Shovel",
+      "item.aenarim.bone_hoe": "Bone Hoe",
       "advancements.gather_fibre.title": "A primitive type of string",
-      "item.aenarim.sharp_pickaxe": "Sharp Pickaxe",
       "item.aenarim.flint_knife": "Flint Knife",
       "item.aenarim.woven_armour_chestplate": "Woven Chestplate",
       "item.aenarim.sharp_bone": "Sharp Bone",
       "advancements.gather_sharp_bone.descr": "Get a sharp bone from a skeleton, which can be used to make slightly better tools",
-      "item.aenarim.sharp_axe": "Sharp Axe",
       "item.aenarim.flint_shovel": "Flint Shovel",
       "item.aenarim.fibre": "Fibre",
       "advancements.gather_flint.title": "Something sharp",
+      "item.aenarim.bone_axe": "Bone Axe",
       "advancements.gather_flint.descr": "Acquire flint from gravel, a useful material for basic tools.",
+      "item.aenarim.bone_sword": "Bone Sword",
       "item.aenarim.woven_armour_boots": "Woven Armour Boots",
       "item.aenarim.flint_pickaxe": "Flint Pickaxe"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "BoneTools",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "aenarim",
