@@ -22,7 +22,7 @@ public class BonePickaxeItem extends PickaxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 0f;
+				return 1f;
 			}
 
 			public int getLevel() {

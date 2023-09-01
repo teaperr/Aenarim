@@ -21,11 +21,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "aenarim:items/bone_tools",
-            "count": {
-              "min": 1,
-              "max": 27
-            }
+            "tag": "aenarim:bone_tools"
           }
         ]
       }

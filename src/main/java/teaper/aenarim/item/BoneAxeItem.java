@@ -22,7 +22,7 @@ public class BoneAxeItem extends AxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 4f;
 			}
 
 			public int getLevel() {
