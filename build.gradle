@@ -16,6 +16,12 @@ loom {
     }
 }
 
+repositories {
+    //fabric shields
+	maven { url = 'https://jitpack.io' }
+	maven { url "https://maven.shedaniel.me/" }
+	maven { url "https://maven.terraformersmc.com/releases/" }
+}
 dependencies {
     minecraft "com.mojang:minecraft:1.19.2"
     mappings loom.officialMojangMappings()
@@ -23,6 +29,19 @@ dependencies {
 
     //Fabric api
     modImplementation "net.fabricmc.fabric-api:fabric-api:0.67.1+1.19.2"
+    //Fabric shields stuff
+    modImplementation "com.github.CrimsonDawn45:Fabric-Shield-Lib:v${project.fabric_shield_lib_version}"
+	modApi("me.shedaniel.cloth:cloth-config-fabric:${project.cloth_version}") {
+		exclude(group: "net.fabricmc.fabric-api")
+	}
+	include("me.shedaniel.cloth:cloth-config-fabric:${project.cloth_version}")
+	modCompileOnly modRuntimeOnly ("com.terraformersmc:modmenu:${project.mod_menu_version}"), {
+		exclude(group: "net.fabricmc.fabric-api")
+	} 
+	modImplementation("com.github.Chocohead:Fabric-ASM:v${project.fabric_asm_version}") {
+		exclude (group: "net.fabricmc.fabric-api")
+	}
+	include("com.github.Chocohead:Fabric-ASM:v${project.fabric_asm_version}")
 }
 
 processResources {

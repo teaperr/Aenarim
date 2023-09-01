@@ -1,11 +1,14 @@
 {
   "item.aenarim.dried_fibre": "Dried Fibre",
+  "item.aenarim.bone_shovel": "Bone Shovel",
   "item.aenarim.flint_hoe": "Flint Hoe",
   "item.aenarim.woven_armour_leggings": "Woven Leggings",
   "advancements.gather_fibre.descr": "Gather fibre from cutting grass with a flint knife.",
   "item.aenarim.woven_armour_helmet": "Woven Armour Helmet",
+  "item.aenarim.bone_pickaxe": "Bone Pickaxe",
   "item.aenarim.flint_hatchet": "Flint Hatchet",
   "advancements.gather_sharp_bone.title": "Ow! Pointy!",
+  "item.aenarim.bone_hoe": "Bone Hoe",
   "advancements.gather_fibre.title": "A primitive type of string",
   "item.aenarim.flint_knife": "Flint Knife",
   "item.aenarim.woven_armour_chestplate": "Woven Chestplate",
@@ -14,7 +17,9 @@
   "item.aenarim.flint_shovel": "Flint Shovel",
   "item.aenarim.fibre": "Fibre",
   "advancements.gather_flint.title": "Something sharp",
+  "item.aenarim.bone_axe": "Bone Axe",
   "advancements.gather_flint.descr": "Acquire flint from gravel, a useful material for basic tools.",
+  "item.aenarim.bone_sword": "Bone Sword",
   "item.aenarim.woven_armour_boots": "Woven Armour Boots",
   "item.aenarim.flint_pickaxe": "Flint Pickaxe"
 }
