@@ -1,0 +1,27 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:BoneAxe"
+      },
+      {
+        "value": "CUSTOM:BoneSword"
+      },
+      {
+        "value": "CUSTOM:BoneShovel"
+      },
+      {
+        "value": "CUSTOM:BoneHoe"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "bone_tools",
+    "namespace": "mod"
+  }
+}
